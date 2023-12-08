@@ -1,0 +1,724 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: azonix;
+    src: url(FONT/Akira\ Expanded\ Demo.otf);
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    
+    background: radial-gradient(circle, rgba(47,47,59,1) 20%, rgb(17, 17, 17) 100%); 
+}
+
+
+
+
+
+
+
+
+
+
+/*_____________DEBUT ASIDE_____________*/
+#aside {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    background-color: #313141;
+    text-align: center;
+    padding-bottom: 100%;
+    border: 0px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: #454557;
+    font-family: 'DM Sans', sans-serif;
+
+}
+.menu {
+    margin-bottom: 5%;
+    padding: 5%;
+    border: 0px;
+    background-color: #313141;
+    color: white;
+    padding-right: 50%;
+    text-align: left;
+    padding-left: 30%;
+    
+}
+.menu:hover {
+    color: rgba(238, 59, 59, 0.808);
+    border-left: 7px;
+    border-style: solid;
+    border-color: rgba(238, 59, 59, 0.808);
+    transition: 0.25s;
+    
+}
+h1 {
+    text-align: left;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+    border: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #454557;
+    font-family: azonix;
+    font-size: x-large;
+    font-stretch: expanded;
+}
+h3 {
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: small;
+    
+
+}
+.social {
+    font-weight: 900;
+    border: 0px;
+    border-top: 1px;
+    border-style: solid;
+    border-color: #454557;
+    
+}
+.MENU {
+    font-weight: 900;
+}
+
+#liens {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+a {
+    display: flex;
+    
+   
+    color: rgba(238, 59, 59, 0.808);
+    outline: none;
+    text-decoration: none;
+    margin: 4%;
+    border-bottom: 2px;
+    border-color: rgba(238, 59, 59, 0.808);
+}
+
+a img {
+    width: 10%;
+    height: auto;
+    margin-right: 5%;
+}
+/*_________FIN ASIDE___________*/
+
+
+
+
+
+
+
+
+
+
+
+
+#contenu {
+    display: flex;
+    
+    padding-bottom: 10%;
+    justify-content: end;
+    flex-direction: column;
+    margin-left: 20%;
+    height: 40%;
+    
+
+}
+
+
+/*________grande image au début________*/
+
+#pres {
+    display: flex;
+    background-image: url("IMAGE/fond2.gif");
+    margin: 5%;
+    margin-bottom: 12%;
+    margin-left: 0%;
+    
+    padding-bottom: 20%;
+    border-radius: 16px ;
+    flex-direction: column;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: top;
+}
+.NOM {
+    margin: 10%;
+    
+}
+
+.pres {
+    margin: 0%;
+    font-family: azonix;
+    
+    padding: 0%;
+    font-size: 40pt;
+}
+.pres2 {
+    
+        margin: 0%;
+        padding: 0%;
+        font-size: 15pt;
+    
+}
+
+
+
+.titre {
+    margin: 0% 20% 0% 20%;
+    padding: 0%;
+    font-family: azonix;
+}
+
+
+.titre {
+    margin: 0% 6% 1% 1%;
+    padding-top: 3%;
+    border: 0px;
+    border-top: 1px;
+    border-style: solid;
+    border-color: #454557;
+}
+#pres:hover {
+    transform: scale(102%);
+    transition: transform 0.5s;    
+}
+#pres:not(:hover) {
+    transform: scale(100%);
+    transition: transform 0.5s;   
+}
+
+
+/*__________à propos de moi____________*/
+
+#secparcours {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0% 5% 0% 2%;
+    
+}
+.divparcours {
+    display: flex;
+    
+    margin-top: 5%;
+
+}
+#divB {
+    margin-bottom: 19%;
+}
+article {
+    padding: 0% 1% 0% 1%;
+    margin: 2%;
+    width: 50%;
+    border: 0px;
+    border-left: 3px;
+    border-style: solid;
+    border-color: rgba(238, 59, 59, 0.808);
+    
+}
+h4 {
+    margin: 0%;
+}
+p{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*__________liste compétences___________*/
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 10% 8% 0% 1.5%;
+    
+    margin-bottom: 33%;
+    
+}
+
+                /* bouton static*/
+#karaté {
+    padding: 2%;
+    margin: 2%;
+    padding-top: 10%;
+    border-radius: 7%;
+    background-color: #2F2F3B;
+    background-image: url(IMAGE/tonpère.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: top;
+}
+#dessin {
+    padding: 2%;
+    margin: 2%;
+    padding-top: 10%;
+    
+    border-radius: 9%;
+    background-color: #2F2F3B;
+    background-image: url(https://i.ytimg.com/vi/pxXw3xScVWo/maxresdefault.jpg);
+    background-size: 100%;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-position-y: top;
+}
+#informatiques {
+    padding: 2%;
+    margin: 2%;
+    padding-top: 10%;
+    
+    border-radius: 9%;
+    background-color: #2F2F3B;
+    background-image: url(https://img.pikbest.com/origin/09/11/11/61KpIkbEsTX8m.png!w700wp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: top;
+}
+#langues {
+    
+    padding: 2%;
+    margin: 2%;
+    padding-top: 10%;
+    
+    border-radius: 9%;
+    background-color: #2F2F3B;
+    background-image: url(https://cdn.futura-sciences.com/sources/langage-min.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: top;
+}
+h5 {
+    color: #9b9b9b;
+}
+                /*fin bouton static*/
+
+
+                /*animation bouton*/
+.boutton_compétence {
+    border: 0px;
+    margin-bottom: 5%;
+    padding: 5%;
+    border: 0px;
+    background-color: #2F2F3B;
+    color: white;
+    padding-right: 50%;
+    text-align: left;
+    padding-left: 30%;
+}
+.boutton_compétence:hover {
+    transform: scale(110%);
+    transition: transform 0.2s;
+    background-position: top;
+    border-radius: 16px;
+}
+.boutton_compétence:not(:hover) {
+    transform: scale(100%);
+    transition-duration: 1s;
+    background-position: top;
+}
+.info {
+    display: none;
+    z-index: -1;
+    color: white;
+    font-size: 14px;
+    position: absolue;
+    padding: 5%;
+    margin-top: 10%;
+    background-color: #2F2F3B;
+   
+}
+
+
+          /* affiche info supplémentaire */
+
+.boutton_compétence:focus {
+    transform: scale(200%);
+    z-index: 1;
+    margin-top: 200%;
+
+}
+
+.boutton_compétence:focus h2{
+    color: rgb(255, 255, 255);
+    
+    padding: 2%;
+    margin-right: 75%;
+    border-radius: 6px;
+    text-align: center;
+}
+.boutton_compétence:focus .info {
+    display: block;
+    transition-duration: 5s;
+    
+}
+.boutton_compétence:focus h5 {
+   display: none;
+    
+}
+
+img {
+    width: 20%
+    
+
+}
+
+
+
+
+/*___________ETUDE___________*/
+
+#ETUDE {
+    display:flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#BUT {
+    padding-top: 3%;
+    width: 40%;
+    height: 10%;
+}
+
+#ETUDE2 {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.ETUDE {
+    width: 40%;
+}
+
+
+
+
+
+
+
+/*__________RESPONSIVE POUR TELEPHONE____________*/
+#responsivehobby {
+    display: none;
+}
+@media screen and (max-width: 900px) {
+    nav {
+      flex-wrap: wrap;
+    }
+  }
+
+
+
+@media screen and (max-width: 900px) {
+    #aside {
+        display: none;
+    }
+    #contenu {
+        margin-left: 0%;
+        
+    }
+    .pres {
+        font-size: 15pt;
+    }
+    .pres2 {
+        font-size: 7pt;
+    }
+    #pres {
+
+        margin-left: 5%;
+    }
+    .titre {
+        margin-left: 5%;
+    }
+   
+    #responsivehobby {
+        display: block;
+    }
+    .boutton_compétence:focus {
+        transform: scale(110%);
+        z-index: 1;
+        margin-top: 200%;
+    
+    }
+    .boutton_compétence:hover {
+        transform: scale(100%);
+        transition: transform 0.2s;
+        background-position: top;
+        border-radius: 16px;
+    }
+    .boutton_compétence:not(:hover) {
+        transform: scale(100%);
+        transition-duration: 1s;
+        background-position: top;
+    }
+  }
+
+
+
+
+
+
+/**************************PAGE KARATE****************************/
+
+
+
+#pres2 {
+    display: flex;
+    background-image: url("IMAGE/karatefond.jpg");
+    margin: 5%;
+    margin-bottom: 12%;
+    margin-left: 0%;
+    
+    padding-bottom: 20%;
+    border-radius: 16px ;
+    flex-direction: column;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: top;
+}
+
+#KARACQUOI {
+    display: flex;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#KARACQUOI img{
+    width: 35%;
+}
+#KARACQUOI2 {
+    display: flex;
+    margin-bottom: 10%;
+}
+#KARACQUOI2 img{
+    width: 35%;
+
+}
+
+/*_______GALLERIE_______*/
+
+.stage  {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+   
+    
+}
+.stage img {
+    margin: 2%;
+
+}
+.stage section img {
+    width: 25%;
+    border-radius: 6px;
+    z-index: -1;
+    align-items: center;
+}
+
+.stage section img:hover {
+    transform: scale(200%);
+    transition: 0.5s;
+    
+}
+.stage section img:not(:hover) {
+    
+    transition: 0.5s;
+   
+
+}
+
+/*__________GRADE__________*/
+
+#ceinture {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    
+}
+#ceinture button {
+    display: flex;
+    justify-content: center;
+    min-width: 20%;
+    max-width: 20%;
+    border-radius: 6px;
+    padding: 2%;
+    display: flex;
+    background-color:#454557;
+    margin: 0.2%;
+    color: white;
+}
+#ceinture button img {
+    width: 50%;
+}
+
+grade {
+    display: flex;
+    
+    align-items: center;
+}
+
+.ceinture p {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ; 
+    font-weight: bold;
+    margin: 2%;
+    
+}
+
+.ceinture button:focus + p {
+    max-height: 100px; 
+}
+
+
+
+/*_________BOUTON TRADUCTION____________*/
+
+
+input {
+    position: fixed;
+    z-index: 1;
+    margin-left: 92.5%;
+    margin-top: 0.7%;
+}
+
+label {
+    position: fixed;
+    z-index: 1;
+    margin-left: 94%;
+    margin-top: 0.5%;
+
+}
+#anglais{
+    display: none;
+
+}
+
+
+.lang-toggle[type="checkbox"]:checked ~ #anglais {
+    display: block;
+}
+
+
+.lang-toggle[type="checkbox"]:checked ~ #fr {
+    display: none;
+}
+
+
+
+
+.lang-toggle:not(:checked) + .lang-labelFR {
+    display: block;
+ }
+.lang-labelEN {
+    display: none;
+}
+
+.lang-toggle:checked ~ .lang-labelFR {
+    display: none;
+}
+
+.lang-toggle:checked ~ .lang-labelEN {
+   display: block;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    
+    #pres2 {
+        margin-left: 5%;
+    }
+    article {
+        width: 80%;
+        padding-left: 3%;
+    }
+    /*___________Karate_____________*/
+    #KARACQUOI {
+        flex-direction: column;
+        align-items: center;
+    }
+    #KARACQUOI img{
+        width: 80%;
+        
+    }
+    #KARACQUOI2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    #KARACQUOI2 img{
+        width: 80%;
+    
+    }
+
+    /*_________Grades____________ */
+
+    grade {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #ceinture button {
+        display: flex;
+        justify-content: center;
+        min-width: 100%;
+        max-width: 90%;
+        border-radius: 6px;
+        padding: 2%;
+        display: flex;
+        background-color:#454557;
+        margin: 0.2%;
+        color: white;
+    }
+    #ceinture button img {
+        width: 50%;
+    }
+
+    /*BOUTON TRADUCTION*/
+
+    input {
+        position: fixed;
+        z-index: 1;
+        margin-left: 80%;
+        margin-top: 0.7%;
+    }
+    
+    label {
+        position: fixed;
+        z-index: 1;
+        margin-left: 84%;
+        margin-top: 0.5%;
+    
+    }
+   
+}
